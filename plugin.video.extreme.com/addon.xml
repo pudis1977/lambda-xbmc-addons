@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.extreme.com" name="Extreme Sports" version="1.0.5" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
+		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="plugin.video.youtube" version="2.9.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Extreme Sports</summary>
+		<description lang="en">Extreme Sports</description>
+		<summary lang="el">Extreme Sports</summary>
+		<description lang="el">Extreme Sports</description>
+		<summary lang="fr">Extreme Sports</summary>
+		<description lang="fr">Extreme Sports</description>
+		<summary lang="nl">Extreme sporten</summary>
+		<description lang="nl">Extreme sporten</description>
+		<summary lang="pl">Extreme Sports</summary>
+		<description lang="pl">Extreme Sports</description>
+		<summary lang="pt">Desportos extremos</summary>
+		<description lang="pt">Desportos extremos</description>
+		<summary lang="pt_BR">Desportos extremos</summary>
+		<description lang="pt_BR">Desportos extremos</description>
+		<summary lang="ro">Extreme Sports</summary>
+		<description lang="ro">Extreme Sports</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://www.xbmchub.com/forums/lambdas-xbmc-repository/</forum>
+		<source>https://github.com/lambda81/lambda-xbmc-addons</source>
+		<website>http://www.xbmchub.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>

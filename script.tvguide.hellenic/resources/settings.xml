@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="30101">
+		<setting id="source" label="30101" type="labelenum" default="Hellenic.tv"
+                 values="Hellenic.tv|XMLTV" />
+
+		<setting id="xmltv.file" label="30103" type="file" visible="eq(-1,1)" />
+		<setting id="xmltv.logo.folder" label="30116" type="folder" visible="eq(-2,1)"/>
+	</category>
+
+	<category label="30114">
+		<setting id="cache.data.on.xbmc.startup" label="30110" type="bool" default="true" />
+		<setting id="enable.osd" label="30118" type="bool" default="true" enable="eq(2,false)" />
+		<setting label="30119" type="lsep" />
+		<setting id="alternative.playback" label="30120" type="bool" default="false" />
+		<setting label="30121" type="lsep" />
+	</category>
+
+	<category label="30112">
+		<setting id="notifications.enabled" label="30106" type="bool" default="true" />
+		<setting label="30108" type="action" action="RunScript($CWD/notification.py)" />
+	</category>
+</settings>
+
