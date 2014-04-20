@@ -1,4 +1,30 @@
 ------------------------
+GOtv v2.0.0 (20-Apr-14)
+------------------------
+
+- Re-work of addon.
+- Added Icefilms source.
+- Added Ororo TV source.
+- Added Putlocker TV source.
+- Added Noobroom source (login required).
+- Removed Watchonline source.
+- Added full remote share support.
+- Added support for IMDb lists (login required).
+- Added support for Trakt lists (login required).
+- Added option for adding lists to subscriptions.
+- Added section for trending tv.
+- Added search by actor.
+- Fixed playback issues.
+- Fixed istreamHD source.
+- Fixed Moviestorm source.
+- Tweaked show, season and episode listings.
+- Tweaked filtering of hosts.
+- Tweaked available sources.
+- Tweaked context menus.
+- Code cosmetics.
+
+
+------------------------
 GOtv v1.3.7 (14-Apr-14)
 ------------------------
 
